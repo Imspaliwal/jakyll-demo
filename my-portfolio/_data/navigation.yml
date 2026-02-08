@@ -1,0 +1,13 @@
+main:
+  - title: "Sumit Paliwal"  # This is the name you want shown
+    url: /                 # This forward slash points to the homepage
+  - title: "About"
+    url: /about/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Curriculum"
+    url: /cv/
+  - title: "Services"
+    url: /services/
+  - title: "Contact"
+    url: /contact/

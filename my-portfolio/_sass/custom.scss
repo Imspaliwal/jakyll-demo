@@ -1,0 +1,47 @@
+@import "minimal-mistakes/skins/default"; // This loads the base theme
+@import "minimal-mistakes"; // This loads the theme styles
+
+/* 1. Import the specific fonts from your link */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic');
+
+/* 2. Apply PT Sans Narrow to Headings and Navigation */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.masthead__menu-item,
+.archive__item-title {
+    font-family: "PT Sans Narrow", sans-serif !important;
+    text-transform: uppercase;
+    /* This matches the "sharp" look of your inspiration */
+    font-weight: 700;
+}
+
+/* 3. Apply PT Serif to the Body Text */
+body {
+    $background-color: #fff;
+    $text-color: #333332;
+    $link-color: #b02826; // This changes all links to a specific blue
+    overflow-x: hidden; // This hides horizontal scrollbars if content overflows
+    overflow-y: scroll;
+}
+
+p {
+    display: block;
+    margin: 0 0 1.625rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+li,
+.page__content {
+    font-family: "PT Serif", serif !important;
+    font-size: medium;
+    /* Serif fonts often need to be a tiny bit larger to read easily */
+    line-height: 1.6;
+}
